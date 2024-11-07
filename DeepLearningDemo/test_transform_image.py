@@ -43,4 +43,15 @@ preprocess = transforms.Compose([
 img_process=preprocess(img)
 writer.add_image("Compose",img_process)
 
+# 5.随机裁剪函数RandomCrop
+trans_random=transforms.RandomCrop((100,200))
+preprocess2=transforms.Compose([
+    trans_random,
+    tensor_trans
+])
+for i in range (10):
+    img_crop=preprocess2(img)
+    writer.add_image("RandomCrop",img_crop,i)
+
+
 writer.close()
