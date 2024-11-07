@@ -1,3 +1,4 @@
+# 主要是希望通过TensorFlowboard看下我们给model提供了哪些数据
 from torch.utils.tensorboard import SummaryWriter
 import numpy as np
 from PIL import Image
