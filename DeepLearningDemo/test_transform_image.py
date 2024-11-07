@@ -33,5 +33,14 @@ img_resize=tensor_trans(img_resize)
 print(img_resize)
 writer.add_image("Resize",img_resize)
 
+# 4.Compose()函数，将多个操作组合在一起
+# 创建一个图像预处理管道,其实就是把几个操作放到一起了
+preprocess = transforms.Compose([
+    transforms.Resize((224, 224)),  # 调整图像大小
+    transforms.ToTensor(),  # 将图像转换为张量
+    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])  # 标准化
+])
+img_process=preprocess(img)
+writer.add_image("Compose",img_process)
 
 writer.close()
