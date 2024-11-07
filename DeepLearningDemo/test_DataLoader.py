@@ -13,10 +13,10 @@ process = transforms.Compose([
 
 # 使用 ImageFolder 加载本地数据集
 test_data = datasets.ImageFolder(
-    root="E:/pythonProject/DeepLearningDemo/DeepLearningDemo/hymenoptera_data",  # 本地数据集路径
+    root="E:/pythonProject/DeepLearningDemo/DeepLearningDemo/hymenoptera_data/train",  # 本地数据集路径
     transform=process  # 指定转换操作
 )
-test_loder=DataLoader(dataset=test_data,batch_size=4,shuffle=True,num_workers=0,drop_last=False)
+test_loder=DataLoader(dataset=test_data,batch_size=8,shuffle=True,num_workers=0,drop_last=False)
 
 # 测试数据集中的第一张图片及target
 
@@ -24,14 +24,15 @@ img, target=test_data[0]
 print("Single image shape:", img.shape)
 print("Single image target:", target)
 
-writer=SummaryWriter("datalodertest")
-step=0
-
-for data in test_loder:
-    imgs,targets=data
-    print("Batch of images shape:", imgs.shape)  # 图像批次的形状
-    print("Batch of targets:", targets)
-    writer.add_images("test_data",imgs,step)
-    step=step+1
+writer=SummaryWriter("logs")
+# 这里可以设置选两轮
+for epoch in range(2):
+    step=0
+    for data in test_loder:
+        imgs,targets=data
+        print("Batch of images shape:", imgs.shape)  # 图像批次的形状
+        print("Batch of targets:", targets)
+        writer.add_images("test_data",imgs,step)
+        step=step+1
 
 writer.close()
