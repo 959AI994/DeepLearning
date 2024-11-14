@@ -1,16 +1,17 @@
 import torch
 import torchvision
 
-
 from torch import nn
 from torch.utils.data import DataLoader
 from torchvision import  datasets,transforms
 from torch.nn import Conv2d
 from torch.utils.tensorboard import SummaryWriter
 
+# 这段代码基本上是一个简单的卷积神经网络的前向传播过程，并将输入图像写入 TensorBoard，用于监控模型的输入和输出情况。
+
 # 定义图像转换，例如将图像转换为Tensor并进行归一化
 process = transforms.Compose([
-    # transforms.Resize((256, 256)),  # 统一调整所有图像为 256x256
+    transforms.Resize((256, 256)),  # 统一调整所有图像为 256x256
     transforms.ToTensor(),
     # transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))  # 归一化为 [-1, 1] 范围
 ])
@@ -34,14 +35,16 @@ writer=SummaryWriter("../logs")
 
 step=0
 
+model=Jingxin()
+
 for data in dataloader:
     imgs,targets =data
-    output = Jingxin(imgs)
+    output = model(imgs)
     print(imgs.shape)
     print(output.shape)
 
-    writer.add_image("input",imgs,step)
+    writer.add_image("input",imgs[0],step)
 
-    output= torch.reshape(output,(-1,-1,30,30))
+    # output= torch.reshape(output,(-1,-1,30,30))
 
     step=step+1
