@@ -1,0 +1,145 @@
+[33mcommit 47cf3eb33db25301d05f3ae17ced1a9ac6cfefac[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Thu Nov 14 21:56:38 2024 +0800
+
+    Revert "feat:add code"
+    
+    This reverts commit be469f9700e40ede953b1e23f18342cfdb73c231.
+
+[33mcommit be469f9700e40ede953b1e23f18342cfdb73c231[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Thu Nov 14 19:49:13 2024 +0800
+
+    feat:add code
+
+[33mcommit ea015a0960009fd82d8ecc216f88f6662601740c[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Thu Nov 14 19:46:59 2024 +0800
+
+    移除缓存中的大文件
+
+[33mcommit 705ee44fcdfdfe7db0950af9c822d46bdff7f820[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Thu Nov 14 18:51:21 2024 +0800
+
+    feat:add code
+
+[33mcommit 167150a72b4529a3079af1679cd3ed6dea4373ac[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Thu Nov 14 18:44:45 2024 +0800
+
+    追踪大文件使用 Git LFS
+
+[33mcommit 7e8c546b5dbc48a15a0294f1cae419a23c900ed4[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Thu Nov 14 18:37:30 2024 +0800
+
+    忽略 data 文件夹
+
+[33mcommit e4219c2f9d0df0f497d166e485067c141823e4fb[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Thu Nov 14 14:56:50 2024 +0800
+
+    Ignore large files in data directory
+
+[33mcommit aa0d9ceb08bf4f2040754bd9ced455d22cf2a6e8[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Thu Nov 14 14:52:52 2024 +0800
+
+    feat:搭建一个完整的神经网络，以CIFAR-10
+
+[33mcommit b258bba29f5c581610d6ec8da449dd0221fd22de[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Thu Nov 14 14:42:10 2024 +0800
+
+    feat:新增data文件夹，CIFAR10数据集
+
+[33mcommit 2619c5dae78935596e71ff9f78ebafbe76432bbe[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Thu Nov 14 10:43:57 2024 +0800
+
+    feat:add nn_conv2d code
+
+[33mcommit 0f13af7e9265e440188475b6a6323ba197e04979[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Tue Nov 12 21:40:26 2024 +0800
+
+    feat:add code
+
+[33mcommit ea73ab310162b3679141cf17d4bd8d4936117ad8[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Thu Nov 7 22:12:08 2024 +0800
+
+    feat:add dataloder code
+
+[33mcommit 2648d2235c20ff1b2f41b66f9238472b494eca2a[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Thu Nov 7 21:51:27 2024 +0800
+
+    feat:add dataloder code
+
+[33mcommit 92de7012c64af14dd7362434e9eb186ef05bb10e[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Thu Nov 7 20:17:20 2024 +0800
+
+    feat:add code
+
+[33mcommit 91a6181d1d3926214bba805e585b5541d3646d89[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Thu Nov 7 20:01:54 2024 +0800
+
+    feat:add code
+
+[33mcommit 9c38008e049e5e1f2f5135904cee6f9e226f5372[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Thu Nov 7 19:44:07 2024 +0800
+
+    feat:add code
+
+[33mcommit b2a7955ef94e7fe81f1ccdd40a8b86cd9a09856d[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Thu Nov 7 12:44:48 2024 +0800
+
+    feat:add test_tensorboard_imge code
+
+[33mcommit 5ad6882e65cc72aea1fe273ce3faeda96ce325d1[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Thu Nov 7 12:36:06 2024 +0800
+
+    feat:add test_tensorboard.py code
+
+[33mcommit 41eac2e687b27b53aee8afc61dac6f7ddba543bb[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Thu Nov 7 11:13:06 2024 +0800
+
+    feat: fix code
+
+[33mcommit 7ae7020f0a085107c659684558079dc3e0ce758a[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Thu Nov 7 11:09:17 2024 +0800
+
+    feat:read_dir.py 代码用于学习如何处理基础数据集，主要是将训练集或者是某个文件数据类对象化，从而方便后序操作
+
+[33mcommit b67ea83bceed28e64f15be4f198f8927839308a5[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Wed Nov 6 21:45:45 2024 +0800
+
+    feat:add code
+
+[33mcommit ea82010792c82d49af90a10bae8235bf06c53372[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Wed Nov 6 21:44:38 2024 +0800
+
+    feat:add code
+
+[33mcommit adf027f0e4f754fd33a731c3095eac585d29dc12[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Wed Nov 6 21:38:31 2024 +0800
+
+    feat:add code
+
+[33mcommit 202691bc882a61b3bcce71ab84165bb8c460e2b4[m
+Author: 959AI994 <115469462+959AI994@users.noreply.github.com>
+Date:   Wed Nov 6 20:40:02 2024 +0800
+
+    first commit
