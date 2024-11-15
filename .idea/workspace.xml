@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03316e5d-e0ec-4233-92e6-40022f81af30" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearningDemo/logs/events.out.tfevents.1730988554.LAPTOP-3RSPB3NV.24768.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearningDemo/logs/events.out.tfevents.1731418573.LAPTOP-3RSPB3NV.7072.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearningDemo/logs/events.out.tfevents.1731418596.LAPTOP-3RSPB3NV.29112.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearningDemo/logs/events.out.tfevents.1731418645.LAPTOP-3RSPB3NV.3304.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearningDemo/logs/events.out.tfevents.1731418747.LAPTOP-3RSPB3NV.1180.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearningDemo/logs/events.out.tfevents.1731418763.LAPTOP-3RSPB3NV.32280.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearningDemo/logs/events.out.tfevents.1731551279.LAPTOP-3RSPB3NV.7416.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearningDemo/logs/events.out.tfevents.1731551356.LAPTOP-3RSPB3NV.13000.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearningDemo/logs/events.out.tfevents.1731551470.LAPTOP-3RSPB3NV.31672.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearningDemo/logs/events.out.tfevents.1731551550.LAPTOP-3RSPB3NV.22268.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearningDemo/logs/events.out.tfevents.1731551616.LAPTOP-3RSPB3NV.6596.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearningDemo/models/logs/events.out.tfevents.1731576359.LAPTOP-3RSPB3NV.30104.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearningDemo/models/logs/events.out.tfevents.1731576401.LAPTOP-3RSPB3NV.41164.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearningDemo/models/logs/events.out.tfevents.1731576420.LAPTOP-3RSPB3NV.42840.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearningDemo/models/logs/events.out.tfevents.1731576447.LAPTOP-3RSPB3NV.4212.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearningDemo/models/logs/events.out.tfevents.1731577044.LAPTOP-3RSPB3NV.40852.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearningDemo/models/logs/events.out.tfevents.1731582585.LAPTOP-3RSPB3NV.1840.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearningDemo/models/logs/events.out.tfevents.1731582606.LAPTOP-3RSPB3NV.27484.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearningDemo/models/logs/events.out.tfevents.1731582975.LAPTOP-3RSPB3NV.1160.0" beforeDir="false" />
-    </list>
+    <list default="true" id="03316e5d-e0ec-4233-92e6-40022f81af30" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
